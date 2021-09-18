@@ -13,7 +13,7 @@
 import pytest
 
 
-@pytest.fixture(autouse=True)
+@pytest.fixture()
 def set_up():
     print("测试初始化")
     yield

@@ -7,13 +7,15 @@ import pytest
 
 
 class TestLoginCases:
-
+    @pytest.mark.smoketest
+    @pytest.mark.logintest
+    @pytest.mark.run(order=2)
     def test_login_01(self):
-        print(" exec test_login_01 TestLoginCases")
+        print("~~ exec test_login_01 TestLoginCases~~")
         assert True
 
     def test_login_02(self):
-        print(" exec test_login_02 TestLoginCases")
+        print("~~ exec test_login_02 TestLoginCases~~")
         assert True
 
 

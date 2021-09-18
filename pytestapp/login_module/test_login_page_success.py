@@ -3,12 +3,17 @@
 # @Author : Limusen
 # @File : test_login_succest
 
-class TestLoginPageCases:
+import pytest
 
+
+class TestLoginPageCases:
+    @pytest.mark.smoketest
+    @pytest.mark.run(order=1)
     def test_login_page_01(self):
-        print(" exec test_login_page_01 TestLoginCases")
+        print("~~ exec test_login_page_01 TestLoginCases ~~")
         assert True
 
+    @pytest.mark.logintest
     def test_login_page_02(self):
-        print(" exec test_login_page_02 TestLoginCases")
+        print("~~ exec test_login_page_02 TestLoginCases ~~")
         assert True

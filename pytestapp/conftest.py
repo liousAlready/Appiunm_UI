@@ -7,9 +7,9 @@ import pytest
 
 
 # 顶层的conftest 一般是针对各个子包运行一次
-
+# 包层次(大模块)的conftest 一般是针对各个子包运行一次
 @pytest.fixture(scope='package', autouse=True)
-def set_up():
+def set_up_package():
     print("~~ test package test start run ~~")
     yield
     print("~~ test package test end run ~~")
