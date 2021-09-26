@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite errors="0" failures="0" hostname="DESKTOP-OTOI92D" name="pytest" skipped="4" tests="6" time="0.132"
+               timestamp="2021-09-18T14:50:49.437043">
+        <testcase classname="test_demo_06.TestDemo06_01" name="test_add_01" time="0.002">
+            <skipped message="开发未完善,阻碍测试" type="pytest.skip">
+                C:\Users\admin\PycharmProjects\Appiunm_UI\pytest20200816\test_demo_06.py:19: 开发未完善,阻碍测试
+            </skipped>
+        </testcase>
+        <testcase classname="test_demo_06.TestDemo06_01" name="test_add_02" time="0.000">
+            <skipped message="条件满足,用例不执行" type="pytest.skip">
+                C:\Users\admin\PycharmProjects\Appiunm_UI\pytest20200816\test_demo_06.py:24: 条件满足,用例不执行
+            </skipped>
+        </testcase>
+        <testcase classname="test_demo_06.TestDemo06_01" name="test_sub_01" time="0.000">
+            <skipped message="设置测试类不执行" type="pytest.skip">
+                C:\Users\admin\PycharmProjects\Appiunm_UI\pytest20200816\test_demo_06.py:29: 设置测试类不执行
+            </skipped>
+        </testcase>
+        <testcase classname="test_demo_06.TestDemo06_01" name="test_sub_02" time="0.000">
+            <skipped message="设置测试类不执行" type="pytest.skip">
+                C:\Users\admin\PycharmProjects\Appiunm_UI\pytest20200816\test_demo_06.py:33: 设置测试类不执行
+            </skipped>
+        </testcase>
+        <testcase classname="test_demo_06.TestDemo06_02" name="test_add_01" time="0.003"/>
+        <testcase classname="test_demo_06.TestDemo06_02" name="test_add_02" time="0.001"/>
+    </testsuite>
+</testsuites>
