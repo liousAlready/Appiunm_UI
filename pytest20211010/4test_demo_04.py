@@ -9,7 +9,7 @@
 import pytest
 
 
-@pytest.fixture(params=[1, 2, 3, 4, 5])
+@pytest.fixture(params=[1, 2, 3, 4, 5],ids=['num1','num2','num3','num4','num5',])
 def fixture_function(request):
     return request.param
 
