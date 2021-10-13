@@ -1,0 +1,41 @@
+[ {
+  "uid" : "c826ee0355ff2ca",
+  "name" : "[Title]case 02 错误的用户名密码登录",
+  "time" : {
+    "start" : 1634110255018,
+    "stop" : 1634110255018,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5899b1bcbb68484a",
+  "name" : "[Title]case 01 正确的用户名密码登录",
+  "time" : {
+    "start" : 1634110254977,
+    "stop" : 1634110254978,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "31242f2356ae0b03",
+  "name" : "[Title]case 01 新增商品至商品中心",
+  "time" : {
+    "start" : 1634110254966,
+    "stop" : 1634110254966,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cef55ee16ca2c14",
+  "name" : "[Title]case 02 新增商品至中台",
+  "time" : {
+    "start" : 1634110254971,
+    "stop" : 1634110254971,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

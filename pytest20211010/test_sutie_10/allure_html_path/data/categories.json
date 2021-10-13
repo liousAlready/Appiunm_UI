@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\Appiunm_UI\\\\pytest20211010\\\\test_sutie_10\\\\login_suite\\\\test.jpg'",
+      "children" : [ {
+        "name" : "[Title]case 01 正确的用户名密码登录",
+        "uid" : "5899b1bcbb68484a",
+        "parentUid" : "d83120a19a71e9fb9e65eec2c19bffb9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634110254977,
+          "stop" : 1634110254978,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d83120a19a71e9fb9e65eec2c19bffb9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

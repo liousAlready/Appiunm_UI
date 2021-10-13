@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-OTOI92D",
+    "children" : [ {
+      "name" : "9452-MainThread",
+      "children" : [ {
+        "name" : "[Title]case 01 正确的用户名密码登录",
+        "uid" : "5899b1bcbb68484a",
+        "parentUid" : "d8c2929e103c01244b4a26b8c0151161",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634110254977,
+          "stop" : 1634110254978,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[Title]case 01 新增商品至商品中心",
+        "uid" : "31242f2356ae0b03",
+        "parentUid" : "d8c2929e103c01244b4a26b8c0151161",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110254966,
+          "stop" : 1634110254966,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[Title]case 02 新增商品至中台",
+        "uid" : "3cef55ee16ca2c14",
+        "parentUid" : "d8c2929e103c01244b4a26b8c0151161",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110254971,
+          "stop" : 1634110254971,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[Title]case 02 错误的用户名密码登录",
+        "uid" : "c826ee0355ff2ca",
+        "parentUid" : "d8c2929e103c01244b4a26b8c0151161",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110255018,
+          "stop" : 1634110255018,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8c2929e103c01244b4a26b8c0151161"
+    } ],
+    "uid" : "1ebec3d76bf86ea046292c3c0c2ba360"
+  } ]
+}

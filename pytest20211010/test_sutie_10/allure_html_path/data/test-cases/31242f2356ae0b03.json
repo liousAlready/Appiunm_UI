@@ -1,0 +1,65 @@
+{
+  "uid" : "31242f2356ae0b03",
+  "name" : "[Title]case 01 新增商品至商品中心",
+  "fullName" : "commodity_suite.test_commodity.TestCommodity#test_commodity_add",
+  "historyId" : "fe77af6694226a7f2357662683ac43d9",
+  "time" : {
+    "start" : 1634110254966,
+    "stop" : 1634110254966,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "[Epic]好再来电商系统"
+  }, {
+    "name" : "feature",
+    "value" : "[Feature]好再来电商系统 V1.9.1"
+  }, {
+    "name" : "story",
+    "value" : "[Story]商品模块新增商品"
+  }, {
+    "name" : "parentSuite",
+    "value" : "commodity_suite"
+  }, {
+    "name" : "suite",
+    "value" : "test_commodity"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCommodity"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OTOI92D"
+  }, {
+    "name" : "thread",
+    "value" : "9452-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "commodity_suite.test_commodity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31242f2356ae0b03.json",
+  "parameterValues" : [ ]
+}

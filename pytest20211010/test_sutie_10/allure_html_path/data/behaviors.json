@@ -1,0 +1,73 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "[Epic]好再来电商系统",
+    "children" : [ {
+      "name" : "[Feature]好再来电商系统 V1.9.1",
+      "children" : [ {
+        "name" : "[Story]商品模块新增商品",
+        "children" : [ {
+          "name" : "[Title]case 01 新增商品至商品中心",
+          "uid" : "31242f2356ae0b03",
+          "parentUid" : "e4be6bcd1a33f0de4f0d2970b48cf491",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634110254966,
+            "stop" : 1634110254966,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[Title]case 02 新增商品至中台",
+          "uid" : "3cef55ee16ca2c14",
+          "parentUid" : "e4be6bcd1a33f0de4f0d2970b48cf491",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634110254971,
+            "stop" : 1634110254971,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e4be6bcd1a33f0de4f0d2970b48cf491"
+      }, {
+        "name" : "[Story]用户根据用户名密码登录系统",
+        "children" : [ {
+          "name" : "[Title]case 01 正确的用户名密码登录",
+          "uid" : "5899b1bcbb68484a",
+          "parentUid" : "dac4ec3c9b943bb32bda3ac700217500",
+          "status" : "broken",
+          "time" : {
+            "start" : 1634110254977,
+            "stop" : 1634110254978,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[Title]case 02 错误的用户名密码登录",
+          "uid" : "c826ee0355ff2ca",
+          "parentUid" : "dac4ec3c9b943bb32bda3ac700217500",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634110255018,
+            "stop" : 1634110255018,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dac4ec3c9b943bb32bda3ac700217500"
+      } ],
+      "uid" : "cbf5abce96ed655f80f2f57d56b5d0a6"
+    } ],
+    "uid" : "ec7cd87f09698921ceeec5d41b094eba"
+  } ]
+}

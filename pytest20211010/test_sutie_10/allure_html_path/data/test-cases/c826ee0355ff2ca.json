@@ -1,0 +1,65 @@
+{
+  "uid" : "c826ee0355ff2ca",
+  "name" : "[Title]case 02 错误的用户名密码登录",
+  "fullName" : "login_suite.test_login.TestLogin#test_login_fail",
+  "historyId" : "f88a396ac629e20bacf5b908458d733c",
+  "time" : {
+    "start" : 1634110255018,
+    "stop" : 1634110255018,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "[Epic]好再来电商系统"
+  }, {
+    "name" : "feature",
+    "value" : "[Feature]好再来电商系统 V1.9.1"
+  }, {
+    "name" : "story",
+    "value" : "[Story]用户根据用户名密码登录系统"
+  }, {
+    "name" : "parentSuite",
+    "value" : "login_suite"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OTOI92D"
+  }, {
+    "name" : "thread",
+    "value" : "9452-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "login_suite.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c826ee0355ff2ca.json",
+  "parameterValues" : [ ]
+}

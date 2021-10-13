@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 13 15:30:55 CST 2021","Wed Oct 13 15:30:55 CST 2021","0","login_suite","test_login","TestLogin","","","[Title]case 02 错误的用户名密码登录",""
+"broken","Wed Oct 13 15:30:54 CST 2021","Wed Oct 13 15:30:54 CST 2021","1","login_suite","test_login","TestLogin","","","[Title]case 01 正确的用户名密码登录","登录测试用例 执行人：李某"
+"passed","Wed Oct 13 15:30:54 CST 2021","Wed Oct 13 15:30:54 CST 2021","0","commodity_suite","test_commodity","TestCommodity","","","[Title]case 01 新增商品至商品中心",""
+"passed","Wed Oct 13 15:30:54 CST 2021","Wed Oct 13 15:30:54 CST 2021","0","commodity_suite","test_commodity","TestCommodity","","","[Title]case 02 新增商品至中台",""

@@ -1,0 +1,65 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "commodity_suite.test_commodity",
+    "children" : [ {
+      "name" : "[Title]case 01 新增商品至商品中心",
+      "uid" : "31242f2356ae0b03",
+      "parentUid" : "577618181190c967f3e54c72c3ccd64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634110254966,
+        "stop" : 1634110254966,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[Title]case 02 新增商品至中台",
+      "uid" : "3cef55ee16ca2c14",
+      "parentUid" : "577618181190c967f3e54c72c3ccd64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634110254971,
+        "stop" : 1634110254971,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "commodity_suite.test_commodity"
+  }, {
+    "name" : "login_suite.test_login",
+    "children" : [ {
+      "name" : "[Title]case 01 正确的用户名密码登录",
+      "uid" : "5899b1bcbb68484a",
+      "parentUid" : "6e6fe06ba25d2513ab3f47629b279a92",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634110254977,
+        "stop" : 1634110254978,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[Title]case 02 错误的用户名密码登录",
+      "uid" : "c826ee0355ff2ca",
+      "parentUid" : "6e6fe06ba25d2513ab3f47629b279a92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634110255018,
+        "stop" : 1634110255018,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "login_suite.test_login"
+  } ]
+}

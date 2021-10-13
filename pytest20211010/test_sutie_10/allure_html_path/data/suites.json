@@ -1,0 +1,81 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "commodity_suite",
+    "children" : [ {
+      "name" : "test_commodity",
+      "children" : [ {
+        "name" : "TestCommodity",
+        "children" : [ {
+          "name" : "[Title]case 01 新增商品至商品中心",
+          "uid" : "31242f2356ae0b03",
+          "parentUid" : "0e301a318f4972d11a9644d61940c28d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634110254966,
+            "stop" : 1634110254966,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[Title]case 02 新增商品至中台",
+          "uid" : "3cef55ee16ca2c14",
+          "parentUid" : "0e301a318f4972d11a9644d61940c28d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634110254971,
+            "stop" : 1634110254971,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0e301a318f4972d11a9644d61940c28d"
+      } ],
+      "uid" : "1254a658cd5d65e9077adfdfa703dec2"
+    } ],
+    "uid" : "79223717405280f16dac045392236ad8"
+  }, {
+    "name" : "login_suite",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "[Title]case 01 正确的用户名密码登录",
+          "uid" : "5899b1bcbb68484a",
+          "parentUid" : "c1ac545aa00c7df5ff0f9faf6b7176f9",
+          "status" : "broken",
+          "time" : {
+            "start" : 1634110254977,
+            "stop" : 1634110254978,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[Title]case 02 错误的用户名密码登录",
+          "uid" : "c826ee0355ff2ca",
+          "parentUid" : "c1ac545aa00c7df5ff0f9faf6b7176f9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634110255018,
+            "stop" : 1634110255018,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c1ac545aa00c7df5ff0f9faf6b7176f9"
+      } ],
+      "uid" : "33965e03326105f5a3ffb1c214bb9d5c"
+    } ],
+    "uid" : "a4ef3184820623bad1edce7abc5e0b4f"
+  } ]
+}

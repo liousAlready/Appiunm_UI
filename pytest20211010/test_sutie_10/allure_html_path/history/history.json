@@ -1,0 +1,79 @@
+{
+  "fe77af6694226a7f2357662683ac43d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31242f2356ae0b03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634110254966,
+        "stop" : 1634110254966,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c3ce9a706dadaa1c6af92ecd6237b620" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5899b1bcbb68484a",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\Appiunm_UI\\\\pytest20211010\\\\test_sutie_10\\\\login_suite\\\\test.jpg'",
+      "time" : {
+        "start" : 1634110254977,
+        "stop" : 1634110254978,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f88a396ac629e20bacf5b908458d733c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c826ee0355ff2ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634110255018,
+        "stop" : 1634110255018,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4ae2ac7a161d41e5d3cccf069d7d5b2c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3cef55ee16ca2c14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634110254971,
+        "stop" : 1634110254971,
+        "duration" : 0
+      }
+    } ]
+  }
+}
