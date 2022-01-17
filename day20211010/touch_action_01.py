@@ -18,13 +18,12 @@ des = {
     "deviceName": "windwos虚拟机",
     "appPackage": "com.android.settings",
     "appActivity": "com.android.settings.Settings",
-    "udid": "192.168.67.101:5555",
+    "udid": "192.168.0.101:5555",
     "noReset": "True"
 }
 
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', des)
 driver.implicitly_wait(10)
-# driver.find_element(By.XPATH, '//android.widget.TextView[@text="text"]').click()
 
 element_01 = driver.find_element(By.XPATH, '//android.widget.TextView[@text="屏幕锁定"]')
 
